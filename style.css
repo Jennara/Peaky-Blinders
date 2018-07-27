@@ -1,39 +1,35 @@
 body {
 
     text-align: center;
-    padding-top:40px;
 }
 
 
 .top-line{
-        height: 2px;
+        height: 7px;
         color: #e34242;
         background-color: #E34242;
         padding: 0;
-        width:100%;
 }
 
 
 
-div {
+.logo {
     margin: auto;
     margin-bottom: 15px;
     margin-top: 15px;
     border-color: #E34242;
     border-style:solid;
     border-width:3px;
-    width: 500px;
+    width: 540px;
     height: 300;
 }    
 
 .text-column {
     height: 360px;
-    width:185px;
+    width:225px;
     display: inline-flex;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
     border-style:solid;
     padding: 20px;
     text-align: left;
@@ -53,9 +49,10 @@ footer {
     box-sizing: border-box;
     font-size: 18px;
     color: gray; 
-    width:500px;
+    width:540px;
     height: 60px;
     border-color: #E34242;
     border-style:solid;
     border-width:3px;
 }
+
