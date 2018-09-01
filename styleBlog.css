@@ -7,10 +7,12 @@ body {
 
 
 .TopLine{
-    height: 7px;
-    color: #e34242;
+        height: 76px;
     background-color: #E34242;
+    padding: 0px;
+    line-height: 76px;
 }
+
 
 .Logo {
     margin-left: auto;

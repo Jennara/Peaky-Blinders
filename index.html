@@ -5,15 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Kelly's FASHION</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styleIndex.css" />
    
 </head>
 <body>
-    <div class="top-line"> </div>
+    <div class="top-line"> 
+        <div class="master-container"> 
+            <div class="navbar"> Home Blog Announcements </div> 
+            <div class="profile-pic" onclick="toggleMenu()"> <img src = "https://trello-attachments.s3.amazonaws.com/5b446fc73fddd954ed4edbe8/5b893c2a1af4c915c3bd1111/1ed277083ba7d6ec7988038ef679dc33/profile-pic.jpg" height="32px" width="32px" > </div>
+        </div>
+    </div>
+
+    <div class="dropdown" style="display:none;"> 
+        <ul style="list-style-type: none;">
+            <li>Your profile</li>
+            <li>Settings</li>
+            <li>Sign out</li>
+        </ul>
+
+    </div>
+   
+
     <div class="logo">  <img src = "https://i.imgur.com/2wcFRTh.png" alt="Kelly’s FASHION"  height="160">  </div>
     <div class="text-column"> Kelly's Fashion, of Cornwall is a manufacturer of ice cream based in Bodmin, Cornwall </div>
     <div class="text-column"> It was founded in the 19th century in St Austell, and is now owned by the conglomerate R&R Ice Cream based in Yorkshire. </div>
     <footer> Kelly’s Fashion Ltd © 2018 </footer> 
-      
+     
+    
+<script>
+    function toggleMenu (){
+       var dropdownEl = document.getElementsByClassName("dropdown")[0];
+        
+       if (dropdownEl.style.display === "block") {
+            dropdownEl.style.display = "none";
+       } else {
+            dropdownEl.style.display = "block";
+        }
+     
+    }
+
+    
+</script>
+
+
+
 </body>
 </html>

@@ -5,11 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Kelly's Fashion Announcements</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="style3.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styleAnnouncements.css" />
    
 </head>
 <body>
-    <div class="TopLine"> </div>
+    <div class="TopLine">
+            <div class="master-container"> 
+                    <div class="navbar"> Home Blog Announcements </div> 
+                    <div class="profile-pic" onclick="toggleMenu()"> <img src = "https://trello-attachments.s3.amazonaws.com/5b446fc73fddd954ed4edbe8/5b893c2a1af4c915c3bd1111/1ed277083ba7d6ec7988038ef679dc33/profile-pic.jpg" height="32px" width="32px" > </div>
+            </div>    
+    </div>
 
     <div class="Title"> ANNOUNCEMENT </div>
 
@@ -37,6 +42,22 @@
     <p style = "font-size: 14px; color: #767676; margin-top: 10px;" class="Date">Jul 27, 2018 </p>
 
     <footer style = "font-size: 18px; color: #A0A0A0;"> Kelly’s Fashion Ltd © 2018</footer>
+
+
+ <script>
+        function toggleMenu (){
+            var dropdownEl = document.getElementsByClassName("dropdown")[0];
+            
+            if (dropdownEl.style.display === "block") {
+                dropdownEl.style.display = "none";
+            } else {
+                dropdownEl.style.display = "block";
+            }
+            
+        }
+    
+            
+ </script>
 
 </body>
 </html>
