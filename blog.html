@@ -13,11 +13,18 @@
             <div class="master-container"> 
                     <div class="navbar"> Home Blog Announcements </div> 
                     <div class="profile-pic" onclick="toggleMenu()"> <img src = "https://trello-attachments.s3.amazonaws.com/5b446fc73fddd954ed4edbe8/5b893c2a1af4c915c3bd1111/1ed277083ba7d6ec7988038ef679dc33/profile-pic.jpg" height="32px" width="32px" > </div>
-                </div>
+            </div>
 
     </div>
-
-
+    
+    <div class="dropdown" style="display:none;"> 
+            <ul style="list-style-type: none;">
+                <li>Your profile</li>
+                <li>Settings</li>
+                <li>Sign out</li>
+            </ul>
+    
+        </div>
 
 
     <div class="Logo">  <img src = "https://i.imgur.com/2wcFRTh.png" alt="Kelly’s FASHION"  height="160">  </div>
@@ -99,7 +106,7 @@
 
     }
 
- function toggleMenu (){
+    function toggleMenu (){
        var dropdownEl = document.getElementsByClassName("dropdown")[0];
         
        if (dropdownEl.style.display === "block") {

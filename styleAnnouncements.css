@@ -16,6 +16,7 @@ body {
 }
 
 
+
 .master-container{
     width: 540px;
     margin-left: auto;
@@ -48,6 +49,28 @@ body {
 }
 
 
+.dropdown{
+    border: 3px solid rgb(0, 238, 255);
+    background-color: #E34242;
+    color: #fff;
+    position: absolute;
+    top: 70px;
+    left: 63%;
+    height: 70px;
+    width: 150px;
+    text-align: left;
+
+}
+
+.dropdown>ul{
+    padding: 0px;
+    padding-left: 3px;
+    padding-top: 3px;
+    width: 100%;
+    margin: auto;
+
+    
+}
 
 .Title {
     margin-left: auto;
