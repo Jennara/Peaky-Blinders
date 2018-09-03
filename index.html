@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="styleIndex.css" />
    
 </head>
-<body onclick="toggleMenu()">
+<body onclick="closeMenu()">
     <div class="top-line"> 
         <div class="master-container"> 
             <div class="navbar"> Home Blog Announcements </div> 
@@ -33,16 +33,29 @@
      
     
 <script>
+
+
+
+
     function toggleMenu (){
+        console.log("toggle menu called");
        var dropdownEl = document.getElementsByClassName("dropdown")[0];
         
-       if (dropdownEl.style.display === "block") {
+       if (dropdownEl.style.display === "block")  {
             dropdownEl.style.display = "none";
-       } else {
-            dropdownEl.style.display = "block";
-        }
+       } else { (dropdownEl.style.display = "block")
      
+       } 
     }
+
+    function closeMenu () {
+    console.log ('close menu called');
+    var dropdownEl = document.getElementsByClassName ("dropown")[0];
+        dropdownEl.style.display = "none";
+    
+}
+
+
 
     
 </script>
